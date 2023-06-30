@@ -1,6 +1,8 @@
 .card-1 {
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
   background-size: cover;
+  margin: 50px;
+  list-style: none;
 }
 
 .card-2 {
@@ -8,6 +10,8 @@
   justify-content: flex-end;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
   background-size: cover;
+  margin: 50px;
+  list-style: none;
 }
 
 .card-3 {
@@ -16,6 +20,8 @@
   text-align: center;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
   background-size: cover;
+  margin: 50px;
+  list-style: none;
 }
 
 .heading {
@@ -30,7 +36,7 @@
   color: #64748b;
 }
 
-.button {
+.buttom {
   font-family: 'roboto';
   font-size: 10px;
   color: #64748b;

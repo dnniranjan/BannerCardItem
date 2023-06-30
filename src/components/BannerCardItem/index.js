@@ -6,9 +6,13 @@ const BannerCardItem = props => {
 
   return (
     <li className={className}>
-      <h1 className="heading">{headerText}</h1>
-      <p className="para">{description}</p>
-      <button className="button">Show More</button>
+      <div>
+        <h1 className="heading">{headerText}</h1>
+        <p className="para">{description}</p>
+        <div>
+          <button className="buttom">Show More</button>
+        </div>
+      </div>
     </li>
   )
 }
